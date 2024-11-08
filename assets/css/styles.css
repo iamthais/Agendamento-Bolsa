@@ -1,7 +1,8 @@
 body{
-    background-color: blueviolet;
+    background-color: #fff;
 }
 
-.inputs{
-    margin: 5%;
+.form-check-input{
+    margin-left: 4px !important;
+    margin-right: 4px !important;
 }
