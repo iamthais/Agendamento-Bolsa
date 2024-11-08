@@ -31,7 +31,7 @@
         </div>
         <div class="row mt-5">
             <div class="col-6">
-                <a>Esqueci minha senha</a>
+                <a>Esqueci minha senha.</a>
             </div>
             <div class="col-6">
                 <div class="btn btn-primary btn-sm">Login</div>
