@@ -14,5 +14,13 @@ body{
     background-color: #072d27 !important;
 }
 
-.imagem{
+.rodape{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
+
+.img-logo{
+    max-width: 50px;
+    height: auto;
 }

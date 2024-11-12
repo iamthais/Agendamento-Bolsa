@@ -163,7 +163,17 @@
             </label>
         </div>
     </div>
+    <div class="col-12 col-md-12">
+        <div class="col-auto text-center mb-5">
+            <form action="questionario.php">
+                <button type="submit" class="btn btn-primary ">Enviar</button>
+            </form>
+        </div>
+    </div>
+
 </div>
+
+
 
 
 

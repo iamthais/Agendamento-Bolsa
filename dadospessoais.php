@@ -20,7 +20,7 @@
 
   <div class="text-center" style="margin-top: 10vh;">
     <div class="row">
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6" style="font-size: 16px;">
         <input class="form-control mb-4" type="text" placeholder="Nome" aria-label="default input example">
         <input class="form-control mb-4" type="text" placeholder="Data de Nascimento"
           aria-label="default input example">
@@ -40,7 +40,7 @@
       <div class="col-12 col-md-12">
         <div class="col-auto text-end">
           <form action="sintomas.php">
-            <button type="submit" class="btn btn-primary">Confirm identity</button>
+            <button type="submit" class="btn btn-primary" style="font-size: 16px;">Próximo</button>
           </form>
         </div>
       </div>

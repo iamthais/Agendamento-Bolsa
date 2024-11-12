@@ -1,7 +1,7 @@
 <?php include "header.php" ?>
 
 <div class="container">
-    <div class="row mt-5 mb-5 justify-content-center flex-nowrap">
+    <div class="row m-5 justify-content-center flex-nowrap">
         <div class="col-auto">
             <button type="button" class="btn btn-primary rounded-0 disabled">Dados Pessoais</button>
         </div>
@@ -19,7 +19,7 @@
             <div class="form-check fs-5 border rounded-1 p-0">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                 <label class="form-check-label" for="flexCheckDefault">
-                    Default checkbox
+                    Sangramento
                 </label>
             </div>
         </div>
@@ -27,7 +27,7 @@
             <div class="form-check fs-5 border rounded-1 p-0">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                 <label class="form-check-label" for="flexCheckDefault">
-                    Default checkbox
+                    Dor no peito
                 </label>
             </div>
         </div>
@@ -35,7 +35,7 @@
             <div class="form-check fs-5 border rounded-1 p-0">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                 <label class="form-check-label" for="flexCheckDefault">
-                    Default checkbox
+                    Falta de ar
                 </label>
             </div>
         </div>
@@ -43,7 +43,7 @@
             <div class="form-check fs-5 border rounded-1 p-0">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                 <label class="form-check-label" for="flexCheckDefault">
-                    Default checkbox
+                    Dor de cabeça
                 </label>
             </div>
         </div>
@@ -51,49 +51,7 @@
             <div class="form-check fs-5 border rounded-1 p-0">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                 <label class="form-check-label" for="flexCheckDefault">
-                    Default checkbox
-                </label>
-            </div>
-        </div>
-
-
-        <div class="col-12 col-md-4 p-3">
-            <div class="form-check fs-5 border rounded-1 p-0">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">
-                    Default checkbox
-                </label>
-            </div>
-        </div>
-        <div class="col-12 col-md-4 p-3">
-            <div class="form-check fs-5 border rounded-1 p-0">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">
-                    Default checkbox
-                </label>
-            </div>
-        </div>
-        <div class="col-12 col-md-4 p-3">
-            <div class="form-check fs-5 border rounded-1 p-0">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">
-                    Default checkbox
-                </label>
-            </div>
-        </div>
-        <div class="col-12 col-md-4 p-3">
-            <div class="form-check fs-5 border rounded-1 p-0">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">
-                    Default checkbox
-                </label>
-            </div>
-        </div>
-        <div class="col-12 col-md-4 p-3">
-            <div class="form-check fs-5 border rounded-1 p-0">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">
-                    Default checkbox
+                    Tontura
                 </label>
             </div>
         </div>
@@ -103,7 +61,7 @@
             <div class="form-check fs-5 border rounded-1 p-0">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                 <label class="form-check-label" for="flexCheckDefault">
-                    Default checkbox
+                    Convulsão
                 </label>
             </div>
         </div>
@@ -111,7 +69,7 @@
             <div class="form-check fs-5 border rounded-1 p-0">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                 <label class="form-check-label" for="flexCheckDefault">
-                    Default checkbox
+                    Desmaio
                 </label>
             </div>
         </div>
@@ -119,7 +77,7 @@
             <div class="form-check fs-5 border rounded-1 p-0">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                 <label class="form-check-label" for="flexCheckDefault">
-                    Default checkbox
+                    Dores no corpo
                 </label>
             </div>
         </div>
@@ -127,7 +85,7 @@
             <div class="form-check fs-5 border rounded-1 p-0">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                 <label class="form-check-label" for="flexCheckDefault">
-                    Default checkbox
+                    Fraqueza
                 </label>
             </div>
         </div>
@@ -135,16 +93,56 @@
             <div class="form-check fs-5 border rounded-1 p-0">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                 <label class="form-check-label" for="flexCheckDefault">
-                    Default checkbox
+                    Febre
+                </label>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 p-3">
+            <div class="form-check fs-5 border rounded-1 p-0">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Dificuldade na fala
+                </label>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 p-3">
+            <div class="form-check fs-5 border rounded-1 p-0">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Constipação
+                </label>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 p-3">
+            <div class="form-check fs-5 border rounded-1 p-0">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Diárreia
+                </label>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 p-3">
+            <div class="form-check fs-5 border rounded-1 p-0">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Enjoo
+                </label>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 p-3">
+            <div class="form-check fs-5 border rounded-1 p-0">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Vômito
                 </label>
             </div>
         </div>
     </div>
 
     <div class="col-12 col-md-12">
-        <div class="col-auto text-end">
+        <div class="col-auto text-end m-3">
             <form action="questionario.php">
-                <button type="submit" class="btn btn-primary ">Confirm identity</button>
+                <button type="submit" class="btn btn-primary ">Próximo</button>
             </form>
         </div>
     </div>
