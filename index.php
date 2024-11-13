@@ -4,7 +4,7 @@
 
 <div class="container position-absolute top-50 start-50 translate-middle">
     <div class="row">
-        <div class="col-6 " style="background-color: blue; align-itens: center;">
+        <div class="col-6 " style="background-color: blue;">
             <div class="border border-black rounded-5" style="background-color: yellow; width: 400px; height: 550px;">
                 <p>Nome Fantasia</p>
             </div>
