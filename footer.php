@@ -1,4 +1,3 @@
-
 <footer class="rodape">
   <img class="img-logo" src="img/logounc.png" alt="UNC">
 </footer>
