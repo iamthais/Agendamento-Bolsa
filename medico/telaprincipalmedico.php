@@ -1,7 +1,10 @@
-<?php include "../header.php"; ?>
+<?php include "../header.php";
+include "../config.php";
+?>
 
 <div class="container">
     <div class="row rounded mt-3 overflow-auto" style="height:45vh; border:2px solid black;">
+
         <?php
         $max = 15;
         $i = 0;
