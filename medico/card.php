@@ -20,7 +20,7 @@
                 <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body text-start">
                 <div class="container">
                     <div class="row rounded mt-3 overflow-auto" style="height:45vh; border:2px solid black;">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut

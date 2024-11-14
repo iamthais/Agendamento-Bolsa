@@ -14,9 +14,9 @@ include "../config.php";
 
         while ($i < $max) {
         ?>
-            <div class="col-auto">
-                <span><?php include 'card.php' ?></span>
-            </div>
+        <div class="col-auto text-center">
+            <span><?php include 'card.php' ?></span>
+        </div>
         <?php
             $i++;
         } ?>
