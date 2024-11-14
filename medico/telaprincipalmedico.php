@@ -3,15 +3,16 @@ include "../config.php";
 ?>
 
 <div class="container">
-    <div class="row rounded mt-3 overflow-auto" style="height:45vh; border:2px solid black;">
+    <div class="col text-center mt-3">
+        <span>Atendimentos em aberto</span>
+    </div>
+    <div class="row rounded mt-4 overflow-auto box" style="height:42vh;">
 
         <?php
         $max = 15;
         $i = 0;
 
         while ($i < $max) {
-
-
         ?>
             <div class="col-auto">
                 <span><?php include 'card.php' ?></span>
@@ -23,21 +24,15 @@ include "../config.php";
 
 
     <div class="">
-        <div class="row rounded mt-3 overflow-auto" style="height:45vh; border:2px solid black;">
-            <?php
-            $max = 15;
-            $i = 0;
-
-            while ($i < $max) {
-
-
-            ?>
-                <div class="col-auto">
-                    <span><?php include 'card.php' ?></span>
-                </div>
-            <?php
-                $i++;
-            } ?>
+        <div class="row rounded mt-4 overflow-auto box" style="height:42vh;">
+            <div class="col">
+                <form action="search.php" method="GET">
+                    <div class="input-group mb-5 mt-3">
+                        <input type="text" class="form-control" placeholder="Digite sua pesquisa" name="search">
+                        <a class="btn btn-light" type="button"><i class="bi bi-search"></i></a>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </div>
