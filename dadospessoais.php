@@ -20,19 +20,21 @@
           aria-label="default input example">
         <input class="form-control mb-4" type="text" placeholder="Sobrenome" id="sobrenome"
           aria-label="default input example">
-        <input class="form-control mb-4" type="text" placeholder="Data de Nascimento" id="data_nascimento"
-          aria-label="default input example">
-        <input class="form-control mb-4" type="text" placeholder="Sexo" id="sexo"
-          aria-label="default input example">
-        <input class="form-control mb-4" type="text" placeholder="CPF" id="cpf"
-          aria-label="default input example">
+        <input class="form-control mb-4" type="text" placeholder="Data de Nascimento" id="data_nascimento_po"
+          onclick="habilitaDataNascimento()" aria-label="default input example">
+        <input hidden class="form-control mb-4" type="date" placeholder="Data de Nascimento"
+          id="data_nascimento" aria-label="default input example">
+        <input class="form-control mb-4" type="text" placeholder="Telefone" id="telefone"
+          data-pattern="(##) #####-####" maxlength="15" aria-label="default input example">
+        <input class="form-control mb-4" type="text" placeholder="CPF" id="cpf" data-pattern="###.###.###-##"
+          maxlength="14" aria-label="default input example">
         <input class="form-control mb-4" type="text" placeholder="Cartão SUS" id="cartao_sus"
           aria-label="default input example">
 
       </div>
       <div class="col-12 col-md-6">
-        <input class="form-control mb-4" type="text" placeholder="CEP" id="cep"
-          aria-label="default input example">
+        <input class="form-control mb-4" type="text" placeholder="CEP" id="cep" data-pattern="#####-###"
+          maxlength="9" aria-label="default input example">
         <input class="form-control mb-4" type="text" placeholder="Rua" id="rua"
           aria-label="default input example">
         <input class="form-control mb-4" type="text" placeholder="Número" id="numero"
