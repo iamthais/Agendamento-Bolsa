@@ -12,7 +12,7 @@
 </a>
 
 <!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+<div class="modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
@@ -23,25 +23,27 @@
             <div class="modal-body text-start">
                 <div class="container">
                     <div class="row rounded mt-3 overflow-auto" style="height:45vh; border:2px solid black;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        <div class="col-md-6 text-center" style="border: 1px solid black;">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, atque dolor. Temporibus, molestias ratione amet debitis asperiores tempora quas illum illo, soluta alias dolorem, quam sint numquam voluptates magnam autem!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta adipisci mollitia eius maxime aspernatur vel placeat sed culpa fugit molestias suscipit aut enim dicta, aliquid et laboriosam consectetur. Et.</p>
+                        </div>
+                        <div class="col-md-6 text-center" style="border: 1px solid black;">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore facere dignissimos voluptatum, maxime at dolorum quae delectus harum laudantium nobis nesciunt, autem, laboriosam ex doloremque veritatis sint! Voluptas, in ab.</p>
+                        </div>
                     </div>
                     <div class="">
                         <div class="row rounded mt-3 overflow-auto" style="height:45vh; border:2px solid black;">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                            <div class="col-md-12 mt-2 mr-2">
+                                <label for="exampleFormControlTextarea1" class="form-label">Observação</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="modal-footer">
                 <a type="submit" class="btn btn-primary" data-bs-dismiss="modal">Close</a>
+                <a type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</a>
             </div>
         </div>
     </div>
