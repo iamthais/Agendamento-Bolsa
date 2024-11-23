@@ -16,29 +16,56 @@
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
             <div class="modal-body text-start">
                 <div class="container">
-                    <div class="row rounded mt-3 overflow-auto" style="height:45vh; border:2px solid black;">
-                        <div class="col-md-6 text-center" style="border: 1px solid black;">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, atque dolor. Temporibus, molestias ratione amet debitis asperiores tempora quas illum illo, soluta alias dolorem, quam sint numquam voluptates magnam autem!</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta adipisci mollitia eius maxime aspernatur vel placeat sed culpa fugit molestias suscipit aut enim dicta, aliquid et laboriosam consectetur. Et.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>Nome: Nathalia Paluch Sampaio</p>
+                            <p>Data de Nascimento: 27/12/1900</p>
                         </div>
-                        <div class="col-md-6 text-center" style="border: 1px solid black;">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore facere dignissimos voluptatum, maxime at dolorum quae delectus harum laudantium nobis nesciunt, autem, laboriosam ex doloremque veritatis sint! Voluptas, in ab.</p>
+                        <div class="col-md-6">
+                            <p>Leito 27</p>
                         </div>
                     </div>
-                    <div class="">
-                        <div class="row rounded mt-3 overflow-auto" style="height:45vh; border:2px solid black;">
-                            <div class="col-md-12 mt-2 mr-2">
-                                <label for="exampleFormControlTextarea1" class="form-label">Observação</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                    <div class="row border border-dark border-3 rounded px-3 py-3">
+                        <div class="col-md-6">
+                            <div class="row mb-3 me-3">
+                                <div class="border border-dark border-3 rounded">
+                                    <p>Cidade</p>
+                                </div>
+                            </div>
+                            <div class="row me-3">
+                                <div class="border border-dark border-3 rounded">
+                                    <p>Sintomas 1</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="row border border-dark border-3 rounded text-center px-2 py-2" style="justify-content: center;">
+                                <p>1 - Já fez algum tratamento de Quimioterapia ou Radioterapia?</p>
+                                <p class="border border-dark rounded text-center" style="background-color: #90D0EF; width: 10%;">Não</p>
+
+                                <p>2 - Tem possibilidade de gravidez?</p>
+                                <p class="border border-dark rounded text-center" style="background-color: #90D0EF; width: 10%;">Sim</p>
+
+                                <p>3 - Tem alguma doença crônica?</p>
+                                <p class="border border-dark rounded text-center" style="background-color: #90D0EF; width: 10%;">Não</p>
+
+                                <p>4 - Toma alguma medicação continua?</p>
+                                <p class="border border-dark rounded text-center" style="background-color: #90D0EF; width: 10%;">Sim</p>
                             </div>
                         </div>
                     </div>
+
+                    <div class="row mt-3 border border-dark overflow-auto">
+                        <div class="col-md-12 mt-2 mr-2">
+                            <label for="exampleFormControlTextarea1" class="form-label">Observação</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div class="modal-footer">
