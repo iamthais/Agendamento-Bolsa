@@ -52,14 +52,11 @@ require "header.php";
                 <label for="aceite">Aceito</label>
                 <input type="radio" id="box2" name="aceite" />
                 <label for="Não aceito">Não aceito</label> -->
-                <input type="radio" name="check" id="chektermo">
-                <label class="form-check-label" for="chektermo">
+                <input type="checkbox" id="chektermo" name="aceite">
+                <label for="chektermo" class="form-check-label">
                     Declaro que li e aceito os termos
                 </label>
-                <input type="radio" name="check" id="chektermo1">
-                <label class="form-check-label" for="chektermo">
-                    Não aceito os termos.
-                </label>
+                
 
             </div>
             <div class="col-12 col-md-12">
