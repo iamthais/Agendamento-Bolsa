@@ -18,59 +18,96 @@
         <div class="modal-content">
             <div class="modal-body text-start">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p>Nome: Nathalia Paluch Sampaio</p>
-                            <p>Data de Nascimento: 27/12/1900</p>
+                    <div class="row justify-content-end" style="font-size: large;">
+                        <div class="col-md-4">
+                            <h5>Nome: Nathalia Paluch Sampaio</h5>
+                            <h5>Data de Nascimento: 27/12/1900</h5>
                         </div>
-                        <div class="col-md-6">
-                            <p>Leito 27</p>
+                        <div class="col-md-4">
+                            <h5>Leito 27</h5>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row justify-content-end">
+                                <a type="submit" class="btn btn-outline-danger" data-bs-dismiss="modal"
+                                    style="width: 5rem;">Fechar</a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="row border border-dark border-3 rounded px-3 py-3">
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="row mb-3 me-3">
-                                <div class="border border-dark border-3 rounded">
-                                    <p>Cidade</p>
+                                <div class="border border-dark border-3 rounded-4 px-2 py-2">
+                                    <h5 class="mt-1">Cidade: Mafra</h5>
                                 </div>
                             </div>
                             <div class="row me-3">
-                                <div class="border border-dark border-3 rounded">
+                                <h5>Sintomas:</h5>
+                                <div class="border border-dark border-3 rounded-4 overflow-y-scroll custom-scrollbar px-2 py-2"
+                                    style="height: 16.5rem; font-size: large;">
                                     <p>Sintomas 1</p>
+                                    <p>Sintomas 2</p>
+                                    <p>Sintomas 3</p>
+                                    <p>Sintomas 4</p>
+                                    <p>Sintomas 5</p>
+                                    <p>Sintomas 6</p>
+                                    <p>Sintomas 7</p>
+                                    <p>Sintomas 8</p>
+                                    <p>Sintomas 9</p>
+                                    <p>Sintomas 10</p>
+                                    <p>Sintomas 11</p>
+                                    <p>Sintomas 12</p>
+                                    <p>Sintomas 13</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-6">
-                            <div class="row border border-dark border-3 rounded text-center px-2 py-2" style="justify-content: center;">
+                        <div class="col-md-8 ">
+                            <div class="row border border-dark border-3 rounded-4 text-center px-2 py-2"
+                                style="justify-content: center; font-size: large;">
                                 <p>1 - Já fez algum tratamento de Quimioterapia ou Radioterapia?</p>
-                                <p class="border border-dark rounded text-center" style="background-color: #90D0EF; width: 10%;">Não</p>
+                                <p class="border border-dark rounded text-center"
+                                    style="background-color: #90D0EF; width: 10%;">Não</p>
 
                                 <p>2 - Tem possibilidade de gravidez?</p>
-                                <p class="border border-dark rounded text-center" style="background-color: #90D0EF; width: 10%;">Sim</p>
+                                <p class="border border-dark rounded text-center"
+                                    style="background-color: #90D0EF; width: 10%;">Sim</p>
 
                                 <p>3 - Tem alguma doença crônica?</p>
-                                <p class="border border-dark rounded text-center" style="background-color: #90D0EF; width: 10%;">Não</p>
+                                <p class="border border-dark rounded text-center"
+                                    style="background-color: #90D0EF; width: 10%;">Não</p>
 
                                 <p>4 - Toma alguma medicação continua?</p>
-                                <p class="border border-dark rounded text-center" style="background-color: #90D0EF; width: 10%;">Sim</p>
+                                <p class="border border-dark rounded text-center"
+                                    style="background-color: #90D0EF; width: 10%;">Sim</p>
+
+                                <p>4 - Toma alguma medicação continua?</p>
+                                <p class="border border-dark rounded text-center"
+                                    style="background-color: #90D0EF; width: 10%;">Sim</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row mt-3 border border-dark overflow-auto">
+                    <div class="row mt-3 border border-dark border-3 rounded overflow-auto px-3 py-3">
                         <div class="col-md-12 mt-2 mr-2">
-                            <label for="exampleFormControlTextarea1" class="form-label">Observação</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <h5>Observações:</h5>
+                            <textarea class="form-control border border-dark border-3 rounded"
+                                id="exampleFormControlTextarea1" rows="10">Paciente tanana tanana dadaskfas kdjakdkdas
+
+Paciente tanana tanana dadaskfas kdjakdkdas
+
+Paciente tanana tanana dadaskfas kdjakdkdas  
+                            </textarea>
                         </div>
                     </div>
 
                 </div>
             </div>
-            <div class="modal-footer">
-                <a type="submit" class="btn btn-primary" data-bs-dismiss="modal">Close</a>
-                <a type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</a>
+            <div class="modal-footer justify-content-between">
+                <a type="button" class="btn btn-primary"
+                    style="width: 7rem; height: 2.5rem; background: linear-gradient(0deg, rgba(49,78,116,1) 0%, rgba(126,172,229,1) 100%); border: none;">Status</a>
+                <a type="submit" class="btn btn-primary"
+                    style="width: 7rem; height: 2.5rem; background: linear-gradient(0deg, rgba(49,78,116,1) 0%, rgba(126,172,229,1) 100%); border: none;">Salvar</a>
             </div>
         </div>
     </div>

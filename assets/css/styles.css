@@ -58,14 +58,19 @@ body {
     -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3) !important;
 }
 
-
-
-
-
 /* CSS para mobile */
 @media (max-width: 700px) {
     .container {
         width: 90% !important;
     }
+
+    .celular {
+        margin-top: 3vh !important;
+        height: 81vh !important;
+    }
 }
 
+.celular {
+    margin-top: 10vh;
+    height: 76vh;
+}
