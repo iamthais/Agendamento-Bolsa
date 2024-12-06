@@ -18,9 +18,11 @@
             <a>Esqueci minha senha.</a>
         </div>
         <div class="col-6 w-25">
-            <div class="btn btn-primary"
-                style="width: 7rem; height: 2.5rem; background: linear-gradient(0deg, rgba(49,78,116,1) 0%, rgba(126,172,229,1) 100%); border: none;">
-                Login</div>
+            <a href="telaprincipalmedico.php">
+                <div class="btn btn-primary"
+                    style="width: 7rem; height: 2.5rem; background: linear-gradient(0deg, rgba(49,78,116,1) 0%, rgba(126,172,229,1) 100%); border: none;">
+                    Login</div>
+            </a>
         </div>
     </div>
     <div class="row h-100 mt-5 mb-5" style="justify-content: center;">
