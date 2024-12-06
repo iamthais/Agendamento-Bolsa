@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -73,4 +73,24 @@ body {
 .celular {
     margin-top: 10vh;
     height: 76vh;
+}
+
+.telaFinal{
+    background-color: #d9d9d9;
+    height: 80vh;
+
+}
+
+.texto1{
+    font-size: 50px;
+     font-family: "Jost", sans-serif;
+}
+
+.texto2{
+    font-size: 25px;
+     font-family: "Jost", sans-serif;
+}
+
+.Gato{
+    height: 500px;
 }
