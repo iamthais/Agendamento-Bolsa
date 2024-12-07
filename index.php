@@ -7,7 +7,7 @@
             <!-- DIV NOME FANTASIA -->
             <div class="col-12 col-md-6" style=" padding:2rem; background-color: #ccc;">
                 <div class="bg-white rounded-2 " style="height: 55vh;">
-                    <img class="w-100" src="img/teste.png">
+                    <img class="w-75" src="img/nome_fantasia.png">
                 </div>
             </div>
 
@@ -18,7 +18,7 @@
                     <div class="col-12 col-md-12"
                         style="background-color: #ccc; padding-top:2rem; padding-bottom:0rem; padding-right:2rem; padding-left:2rem;">
                         <div class="bg-white rounded-2 pt-1" style="height: 26vh;">
-                            <a href="medico/login.php"><img class="w-100" src="img/teste.png"></a>
+                            <a href="medico/login.php"><img class="w-100" src="img/medico.png"></a>
                         </div>
                     </div>
 
@@ -26,7 +26,7 @@
                     <div class=" col-12 col-md-12"
                         style="background-color: #ccc; padding-top:1.5rem; padding-bottom:2rem; padding-right:2rem; padding-left:2rem;">
                         <div class="bg-white rounded-2 pt-1" style="height: 26vh;">
-                            <a href="dadospessoais.php"><img class="w-100" src="img/teste.png"></a>
+                            <a href="dadospessoais.php"><img class="w-100" src="img/paciente.png"></a>
                         </div>
                     </div>
                 </div>
