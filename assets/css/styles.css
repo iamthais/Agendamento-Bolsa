@@ -76,13 +76,12 @@ body {
 }
 
 .telaFinal{
+    margin-top: 45px !important;
     background-color: #d9d9d9;
-    height: 80vh;
-
+    height: 75vh;
 }
 
 .texto1{
-    font-size: 50px;
      font-family: "Jost", sans-serif;
 }
 
