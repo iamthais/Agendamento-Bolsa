@@ -1,34 +1,24 @@
 <?php include "header.php"; ?>
 
-<div class="container overflow-auto celular" style="width:50%; ">
-    <div class="div" style="background-color: #ccc;">
-        <div class=" row text-center " style="height: 64vh;">
+<div class="container overflow-auto celular" style="width:50%;">
+    <div class="row rounded justify-content-end px-4 py-4" style="background-color: #ccc;">
+        <!-- DIV NOME FANTASIA -->
+        <div class="col-12 col-md-6" style="height: 30rem; width: 20rem;">
+            <img src="img/nome_fantasia.png" style="width: 100%; height: 100%;">
+        </div>
 
-            <!-- DIV NOME FANTASIA -->
-            <div class="col-12 col-md-6" style=" padding:2rem; background-color: #ccc;">
-                <div class="bg-white rounded-2 " style="height: 55vh;">
-                    <img class="w-100" src="img/teste.png">
+        <div class="col-12 col-md-6">
+            <div class="row">
+                <!-- DIV DO MÉDICO -->
+                <div class="col-12 col-md-12"
+                    style="height: 14.5rem; width: 20rem;">
+                    <a href="medico/login.php"><img src="img/medico.png" style="width: 100%; height: 100%;"></a>
                 </div>
-            </div>
 
-            <div class="col-12 col-md-6">
-                <div class="row" style="height: 55vh; ">
-
-                    <!-- DIV DO MÉDICO -->
-                    <div class="col-12 col-md-12"
-                        style="background-color: #ccc; padding-top:2rem; padding-bottom:0rem; padding-right:2rem; padding-left:2rem;">
-                        <div class="bg-white rounded-2 pt-1" style="height: 26vh;">
-                            <a href="medico/login.php"><img class="w-100" src="img/teste.png"></a>
-                        </div>
-                    </div>
-
-                    <!-- DIV DO PACIENTE -->
-                    <div class=" col-12 col-md-12"
-                        style="background-color: #ccc; padding-top:1.5rem; padding-bottom:2rem; padding-right:2rem; padding-left:2rem;">
-                        <div class="bg-white rounded-2 pt-1" style="height: 26vh;">
-                            <a href="dadospessoais.php"><img class="w-100" src="img/teste.png"></a>
-                        </div>
-                    </div>
+                <!-- DIV DO PACIENTE -->
+                <div class="col-12 col-md-12"
+                    style="height: 14.5rem; width: 20rem; margin-top: 1rem">
+                    <a href="medico/login.php"><img src="img/paciente.png" style="width: 100%; height: 100%;"></a>
                 </div>
             </div>
         </div>
