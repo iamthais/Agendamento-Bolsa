@@ -1,7 +1,7 @@
 <?php include "../header.php" ?>
 
 
-<a class="button-style" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="abrirModal()">
+<a class="button-style" data-bs-toggle="modal" data-bs-target="#modalPrincipal">
     <div class="border shadow m-3 p-2" style="width: 260px; height: 95px; border-radius: 10px;">
         <span>Paciente</span>
         <p>
@@ -11,9 +11,8 @@
     </div>
 </a>
 
-<!-- Modal -->
-<div class="modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<!-- Modal Principal-->
+<div class="modal" id="modalPrincipal" data-bs-backdrop="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-body text-start">
@@ -44,7 +43,7 @@
                             <div class="row me-3">
                                 <h5>Sintomas:</h5>
                                 <div class="border border-dark border-3 rounded-4 overflow-y-scroll custom-scrollbar px-2 py-2"
-                                    style="height: 16.5rem; font-size: large;">
+                                    style="height: 22rem; font-size: large;">
                                     <p>Sintomas 1</p>
                                     <p>Sintomas 2</p>
                                     <p>Sintomas 3</p>
@@ -104,7 +103,7 @@ Paciente tanana tanana dadaskfas kdjakdkdas
                 </div>
             </div>
             <div class="modal-footer justify-content-between">
-                <a type="button" class="btn btn-primary"
+                <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalStatus"
                     style="width: 7rem; height: 2.5rem; background: linear-gradient(0deg, rgba(49,78,116,1) 0%, rgba(126,172,229,1) 100%); border: none;">Status</a>
                 <a type="submit" class="btn btn-primary"
                     style="width: 7rem; height: 2.5rem; background: linear-gradient(0deg, rgba(49,78,116,1) 0%, rgba(126,172,229,1) 100%); border: none;">Salvar</a>
@@ -113,6 +112,155 @@ Paciente tanana tanana dadaskfas kdjakdkdas
     </div>
 </div>
 
+<!-- Modal Status-->
+<div class="modal" id="modalStatus" data-bs-backdrop="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-body text-start">
+                <div class="container">
+                    <div class="row justify-content-end" style="font-size: large;">
+                        <div class="col-md-4">
+                            <h5>Nome: Nathalia Paluch Sampaio</h5>
+                            <h5>Data de Nascimento: 27/12/1900</h5>
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Leito 27</h5>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row justify-content-end">
+                                <a type="submit" class="btn btn-outline-danger" data-bs-dismiss="modal"
+                                    style="width: 5rem;">Fechar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row border border-dark border-3 rounded py-4 px-4" style="font-size: large;">
+                        <div class="row" style="font-size: large;">
+                            <div class="col-md-6 mb-3">
+                                <h5 class="d-inline" style="margin-right: 0.5rem;">Receituário</h5>
+
+                                <div class="d-inline">
+                                    <a type="button" class="btn btn-primary rounded-circle" data-bs-toggle="modal" data-bs-target="#modalStatus"
+                                        style="background: linear-gradient(0deg, rgba(49,78,116,1) 0%, rgba(126,172,229,1) 100%); border: none;">
+                                        <i class="bi bi-plus-lg"></i>
+                                    </a>
+
+                                    <a type="button" class="btn btn-primary rounded-circle" data-bs-toggle="modal" data-bs-target="#modalStatus"
+                                        style="background: linear-gradient(0deg, rgba(49,78,116,1) 0%, rgba(126,172,229,1) 100%); border: none;">
+                                        <i class="bi bi-dash"></i>
+                                    </a>
+
+                                    <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalStatus"
+                                        style="background: linear-gradient(0deg, rgba(49,78,116,1) 0%, rgba(126,172,229,1) 100%); border: none;">
+                                        Alta
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="row justify-content-end">
+                                    <a type="button" class="btn btn-primary rounded-circle" data-bs-toggle="modal" data-bs-target="#modalStatus"
+                                        style="width: 2.5rem; height: 2.5rem; background: linear-gradient(0deg, rgba(49,78,116,1) 0%, rgba(126,172,229,1) 100%); border: none;">
+                                        <i class="bi bi-printer"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <p class="table-group-divider"></p>
+                        </div>
+
+                        <div class="row">
+                            <table class="table table-bordered text-center">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Medicamento/Exame</th>
+                                        <th scope="col">Administração</th>
+                                        <th scope="col">Horário</th>
+                                        <th scope="col">Confirmação</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Insulina NPH</td>
+                                        <td>sc</td>
+                                        <td>08:00</td>
+                                        <td><i class="bi bi-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Droflex</td>
+                                        <td>vo</td>
+                                        <td>09:00</td>
+                                        <td><i class="bi bi-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Soro NPH</td>
+                                        <td>sc</td>
+                                        <td>10:00</td>
+                                        <td><i class="bi bi-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Insulina NPH</td>
+                                        <td>sc</td>
+                                        <td>08:00</td>
+                                        <td><i class="bi bi-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Droflex</td>
+                                        <td>vo</td>
+                                        <td>09:00</td>
+                                        <td><i class="bi bi-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Soro NPH</td>
+                                        <td>sc</td>
+                                        <td>10:00</td>
+                                        <td><i class="bi bi-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Insulina NPH</td>
+                                        <td>sc</td>
+                                        <td>08:00</td>
+                                        <td><i class="bi bi-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Droflex</td>
+                                        <td>vo</td>
+                                        <td>09:00</td>
+                                        <td><i class="bi bi-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Soro NPH</td>
+                                        <td>sc</td>
+                                        <td>10:00</td>
+                                        <td><i class="bi bi-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Insulina NPH</td>
+                                        <td>sc</td>
+                                        <td>08:00</td>
+                                        <td><i class="bi bi-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Droflex</td>
+                                        <td>vo</td>
+                                        <td>09:00</td>
+                                        <td><i class="bi bi-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Soro NPH</td>
+                                        <td>sc</td>
+                                        <td>10:00</td>
+                                        <td><i class="bi bi-check"></i></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <?php include "footer.php" ?>
