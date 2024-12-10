@@ -173,7 +173,7 @@
         </div>
         <div class="col-12 col-md-12 mt-3">
             <div class="col-auto text-center">
-                <form action="questionario.php">
+                <form action="telafinal.php">
                     <button type="submit" class="btn btn-primary ">Enviar</button>
                 </form>
             </div>
