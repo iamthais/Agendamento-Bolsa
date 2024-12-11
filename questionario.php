@@ -3,19 +3,17 @@
 
 <div class="scroll" style="padding-bottom: 120px;">
     <div class="container">
-        <div class="row mt-5 mb-5 justify-content-center flex-nowrap">
-            <div class="col-auto">
-                <button type="button" class="btn btn-primary rounded-0 disabled">Dados Pessoais</button>
-            </div>
-            <div class="col-auto">
-                <button type="button" class="btn btn-primary rounded-0 disabled">Sintomas</button>
-            </div>
-            <div class="col-auto">
-                <button type="button" class="btn btn-primary rounded-0 ">Questionário</button>
+        <div class="row mt-5 mb-2 justify-content-center">
+            <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-sm btn-primary rounded-0 disabled mb-0">Dados Pessoais</button>
+                <button type="button" class="btn btn-sm btn-primary rounded-0 disabled mx-1 mb-0">Sintomas</button>
+                <button type="button" class="btn btn-sm btn-primary rounded-0 mb-0">Questionário</button>
             </div>
         </div>
 
-        <div class="row mt-5 justify-content-center text-center">
+
+
+        <div class="row mt-2 justify-content-center text-center">
             <div class="col-12">
                 <p class="mt-4">1- Já fez tratamento de Quimioterapia ou Radioterapia?</p>
                 <input class="form-check-input" type="radio" name="check1" value="" id="flexCheckDefault">
