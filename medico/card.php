@@ -3,11 +3,11 @@
 
 <a class="button-style" data-bs-toggle="modal" data-bs-target="#modalPrincipal">
     <div class="border shadow m-3 p-2" style="width: 260px; height: 95px; border-radius: 10px;">
-        <span>Paciente</span>
+        <span> Nathalia Paluch Sampaio</span>
         <p>
-            <span>30/11/2007</span>
+            <span>27/12/1900</span>
         </p>
-        <div class="rounded ms-2" style="height: 10px; width: 10px; background-color: #000000;"></div>
+        <div class="rounded ms-2" style="height: 10px; width: 10px; background-color: #ff0000;"></div>
     </div>
 </a>
 
