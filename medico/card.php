@@ -121,11 +121,7 @@
                         <div class="col-md-12 mt-2 mr-2">
                             <h5>Observações:</h5>
                             <textarea class="form-control border border-dark border-3 rounded"
-                                id="exampleFormControlTextarea1" rows="10">Paciente tanana tanana dadaskfas kdjakdkdas
-
-Paciente tanana tanana dadaskfas kdjakdkdas
-
-Paciente tanana tanana dadaskfas kdjakdkdas  
+                                id="exampleFormControlTextarea1" rows="10">Paciente relatou histórico de dores de cabeça frequentes, especialmente no período noturno, associadas a momentos de estresse intenso no trabalho. Informa uso eventual de analgésicos sem prescrição médica, com melhora parcial dos sintomas. Não apresenta alergias conhecidas, mas relata histórico familiar de hipertensão. Recomenda-se monitoramento da pressão arterial e investigação adicional caso os sintomas persistam.
                             </textarea>
                         </div>
                     </div>
@@ -133,9 +129,9 @@ Paciente tanana tanana dadaskfas kdjakdkdas
                 </div>
             </div>
             <div class="modal-footer justify-content-between">
-                <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalStatus"
+                <a type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalStatus"
                     style="width: 7rem; height: 2.5rem; background: linear-gradient(0deg, rgba(49,78,116,1) 0%, rgba(126,172,229,1) 100%); border: none;">Status</a>
-                <a type="submit" class="btn btn-primary"
+                <a type="submit" class="btn btn-primary" data-bs-dismiss="modal"
                     style="width: 7rem; height: 2.5rem; background: linear-gradient(0deg, rgba(49,78,116,1) 0%, rgba(126,172,229,1) 100%); border: none;">Salvar</a>
             </div>
         </div>
