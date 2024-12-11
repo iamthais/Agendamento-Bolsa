@@ -1,15 +1,17 @@
 <?php include "header.php" ?>
 
 <div class="container">
-    <div class="row m-5 justify-content-center flex-nowrap">
-        <div class="col-auto">
-            <button type="button" class="btn btn-primary rounded-0 disabled">Dados Pessoais</button>
-        </div>
-        <div class="col-auto">
-            <button type="button" class="btn btn-primary rounded-0">Sintomas</button>
-        </div>
-        <div class="col-auto">
-            <button type="button" class="btn btn-primary rounded-0 disabled">Questionário</button>
+    <div class="py-5">
+        <div class="row justify-content-center">
+            <div class="col-auto mb-2 mb-sm-0">
+                <button type="button" class="btn btn-primary rounded-0 disabled w-100 w-sm-auto">Dados Pessoais</button>
+            </div>
+            <div class="col-auto mb-2 mb-sm-0">
+                <button type="button" class="btn btn-primary rounded-0 w-100 w-sm-auto">Sintomas</button>
+            </div>
+            <div class="col-auto mb-2 mb-sm-0">
+                <button type="button" class="btn btn-primary rounded-0 disabled w-100 w-sm-auto">Questionário</button>
+            </div>
         </div>
     </div>
 

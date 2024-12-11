@@ -1,7 +1,7 @@
 <?php include "header.php"; ?>
 
 <div class="container overflow-auto celular" style="width:50%;">
-    <div class="row rounded justify-content-end px-4 py-4" style="background-color: #d1d1d1;">
+    <div class="row rounded justify-content-end px-4 py-4" style="background-color: #d1d1d1; border-radius: 50px;">
         <!-- DIV NOME FANTASIA -->
         <div class="col-12 col-md-6" style="height: 30rem; width: 20rem;">
             <img src="img/nome_fantasia.png" style="width: 100%; height: 100%;">
