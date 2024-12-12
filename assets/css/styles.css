@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Jost", sans-serif;
     font-style: normal;
     background-color: #ffffff;
 }
@@ -62,12 +69,35 @@ body {
 @media (max-width: 700px) {
     .container {
         width: 90% !important;
+        padding: 3%;
     }
 
     .celular {
         margin-top: 3vh !important;
         height: 81vh !important;
     }
+
+    .texto {
+        text-align: center;
+        font-size: 1.8rem !important;
+        margin-bottom: 0.2rem !important;
+    }
+
+    .texto2 {
+        text-align: center;
+        font-size: 1.0rem !important;
+    }
+
+    .mapa {
+        text-align: center;
+        height: 350px !important;
+        margin: 0.3rem;
+    }
+
+    .telapequena {
+        margin-top: 15px;
+    }
+
 }
 
 .celular {
@@ -75,22 +105,26 @@ body {
     height: 76vh;
 }
 
-.telaFinal{
+.telaFinal {
+    /* margin-top: 45px !important; */
     background-color: #d9d9d9;
-    height: 80vh;
-
+    /* height: 65vh; */
 }
 
-.texto1{
-    font-size: 50px;
-     font-family: "Jost", sans-serif;
-}
-
-.texto2{
-    font-size: 25px;
-     font-family: "Jost", sans-serif;
-}
-
-.Gato{
+.mapa {
     height: 500px;
+    border-radius: 50px;
+}
+
+.texto {
+    font-size: 4rem;
+}
+
+.texto2 {
+    font-size: 2.1rem;
+    margin-top: 10%;
+}
+
+.imagem:hover {
+    transform: scale(0.85);
 }

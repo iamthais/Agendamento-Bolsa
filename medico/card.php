@@ -3,16 +3,17 @@
 
 <a class="button-style" data-bs-toggle="modal" data-bs-target="#modalPrincipal">
     <div class="border shadow m-3 p-2" style="width: 260px; height: 95px; border-radius: 10px;">
-        <span>Paciente</span>
+        <span> Nathalia Paluch Sampaio</span>
         <p>
-            <span>30/11/2007</span>
+            <span>27/12/1900</span>
         </p>
-        <div class="rounded ms-2" style="height: 10px; width: 10px; background-color: #000000;"></div>
+        <div class="rounded ms-2" style="height: 10px; width: 10px; background-color: #ff0000;"></div>
     </div>
 </a>
 
 <!-- Modal Principal-->
-<div class="modal" id="modalPrincipal" data-bs-backdrop="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal" id="modalPrincipal" data-bs-backdrop="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+    aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-body text-start">
@@ -61,8 +62,9 @@
                             </div>
                         </div>
 
-                        <div class="col-md-8 ">
-                            <div class="row border border-dark border-3 rounded-4 text-center px-2 py-2"
+                        <div class="col-md-8 overflow-auto border border-dark border-3 rounded-4"
+                            style="height: 456px;">
+                            <div class="row  text-center px-2 py-2 mt-2 "
                                 style="justify-content: center; font-size: large;">
                                 <p>1 - Já fez algum tratamento de Quimioterapia ou Radioterapia?</p>
                                 <p class="border border-dark rounded text-center"
@@ -80,7 +82,35 @@
                                 <p class="border border-dark rounded text-center"
                                     style="background-color: #90D0EF; width: 10%;">Sim</p>
 
-                                <p>4 - Toma alguma medicação continua?</p>
+                                <p>5- Alguma Alergia?</p>
+                                <p class="border border-dark rounded text-center"
+                                    style="background-color: #90D0EF; width: 10%;">Não</p>
+
+                                <p>6- É fumante ou Ex-Fumante?</p>
+                                <p class="border border-dark rounded text-center"
+                                    style="background-color: #90D0EF; width: 10%;">Sim</p>
+
+                                <p>7- Usa álcool ou drogas?</p>
+                                <p class="border border-dark rounded text-center"
+                                    style="background-color: #90D0EF; width: 10%;">Não</p>
+
+                                <p>8- Tem marca-passo cardíaco?</p>
+                                <p class="border border-dark rounded text-center"
+                                    style="background-color: #90D0EF; width: 10%;">Não</p>
+
+                                <p>9- É pessoa com deficiência?</p>
+                                <p class="border border-dark rounded text-center"
+                                    style="background-color: #90D0EF; width: 10%;">Sim</p>
+
+                                <p>10- Tem insuficiência Renal/Faz hemodiálise?</p>
+                                <p class="border border-dark rounded text-center"
+                                    style="background-color: #90D0EF; width: 10%;">Não</p>
+
+                                <p>11- Já teve AVC?</p>
+                                <p class="border border-dark rounded text-center"
+                                    style="background-color: #90D0EF; width: 10%;">Não</p>
+
+                                <p>12- Acidentes ou quedas recentes?</p>
                                 <p class="border border-dark rounded text-center"
                                     style="background-color: #90D0EF; width: 10%;">Sim</p>
                             </div>
@@ -91,11 +121,7 @@
                         <div class="col-md-12 mt-2 mr-2">
                             <h5>Observações:</h5>
                             <textarea class="form-control border border-dark border-3 rounded"
-                                id="exampleFormControlTextarea1" rows="10">Paciente tanana tanana dadaskfas kdjakdkdas
-
-Paciente tanana tanana dadaskfas kdjakdkdas
-
-Paciente tanana tanana dadaskfas kdjakdkdas  
+                                id="exampleFormControlTextarea1" rows="10">Paciente relatou histórico de dores de cabeça frequentes, especialmente no período noturno, associadas a momentos de estresse intenso no trabalho. Informa uso eventual de analgésicos sem prescrição médica, com melhora parcial dos sintomas. Não apresenta alergias conhecidas, mas relata histórico familiar de hipertensão. Recomenda-se monitoramento da pressão arterial e investigação adicional caso os sintomas persistam.
                             </textarea>
                         </div>
                     </div>
@@ -103,9 +129,9 @@ Paciente tanana tanana dadaskfas kdjakdkdas
                 </div>
             </div>
             <div class="modal-footer justify-content-between">
-                <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalStatus"
+                <a type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalStatus"
                     style="width: 7rem; height: 2.5rem; background: linear-gradient(0deg, rgba(49,78,116,1) 0%, rgba(126,172,229,1) 100%); border: none;">Status</a>
-                <a type="submit" class="btn btn-primary"
+                <a type="submit" class="btn btn-primary" data-bs-dismiss="modal"
                     style="width: 7rem; height: 2.5rem; background: linear-gradient(0deg, rgba(49,78,116,1) 0%, rgba(126,172,229,1) 100%); border: none;">Salvar</a>
             </div>
         </div>
@@ -113,7 +139,8 @@ Paciente tanana tanana dadaskfas kdjakdkdas
 </div>
 
 <!-- Modal Status-->
-<div class="modal" id="modalStatus" data-bs-backdrop="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal" id="modalStatus" data-bs-backdrop="false" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-body text-start">
@@ -140,17 +167,20 @@ Paciente tanana tanana dadaskfas kdjakdkdas
                                 <h5 class="d-inline" style="margin-right: 0.5rem;">Receituário</h5>
 
                                 <div class="d-inline">
-                                    <a type="button" class="btn btn-primary rounded-circle" data-bs-toggle="modal" data-bs-target="#modalStatus"
+                                    <a type="button" class="btn btn-primary rounded-circle" data-bs-toggle="modal"
+                                        data-bs-target="#modalStatus"
                                         style="background: linear-gradient(0deg, rgba(49,78,116,1) 0%, rgba(126,172,229,1) 100%); border: none;">
                                         <i class="bi bi-plus-lg"></i>
                                     </a>
 
-                                    <a type="button" class="btn btn-primary rounded-circle" data-bs-toggle="modal" data-bs-target="#modalStatus"
+                                    <a type="button" class="btn btn-primary rounded-circle" data-bs-toggle="modal"
+                                        data-bs-target="#modalStatus"
                                         style="background: linear-gradient(0deg, rgba(49,78,116,1) 0%, rgba(126,172,229,1) 100%); border: none;">
                                         <i class="bi bi-dash"></i>
                                     </a>
 
-                                    <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalStatus"
+                                    <a type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#modalStatus"
                                         style="background: linear-gradient(0deg, rgba(49,78,116,1) 0%, rgba(126,172,229,1) 100%); border: none;">
                                         Alta
                                     </a>
@@ -159,7 +189,8 @@ Paciente tanana tanana dadaskfas kdjakdkdas
 
                             <div class="col-md-6">
                                 <div class="row justify-content-end">
-                                    <a type="button" class="btn btn-primary rounded-circle" data-bs-toggle="modal" data-bs-target="#modalStatus"
+                                    <a type="button" class="btn btn-primary rounded-circle" data-bs-toggle="modal"
+                                        data-bs-target="#modalStatus"
                                         style="width: 2.5rem; height: 2.5rem; background: linear-gradient(0deg, rgba(49,78,116,1) 0%, rgba(126,172,229,1) 100%); border: none;">
                                         <i class="bi bi-printer"></i>
                                     </a>
