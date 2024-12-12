@@ -1,30 +1,23 @@
 <?php include "header.php"; ?>
-
-<div class="container celular" style="width:50%; overflow-y: auto; overflow-x: hidden;">
-    <div class="row rounded justify-content-end px-4 py-4">
-        <!-- DIV NOME FANTASIA -->
-        <div class=" col-12 col-md-6" style="height: 30rem; width: 20rem;">
-            <img src="img/nome_fantasia.png" style="width: 100%; height: 100%;">
+<div class="container mt-5 texto1">
+    <div class="row">
+        <div class="h1 col-md-8 " style="font-size: 70px;">
+            <p>
+                Poupe <b>filas</b>,<br>realize o <br><b> pré-cadastro</b><br>
+                da sua <br> consulta hospitalar
+            </p>
         </div>
+        <div class="col-md-4 imagem" style="width: 400px;">
+            <img class="text-end cruzinha" src="img/Cruz.png" alt="imagemcruz" style="width:400px;">
+        </div>
+    </div>
+    <div class="row">
+        <div class="h3 col-md-12 text-center mt-5">
+            <form action="termosaceite.php">
+                <button type="submit" class="btn btn-primary" style="font-size: 25px;">Iniciar pré-cadastro</button>
 
-        <div class="col-12 col-md-6 telapequena">
-            <div class="row">
-                <!-- DIV DO MÉDICO -->
-                <div class="col-12 col-md-12 " style="height: 14.5rem; width: 20rem;">
-                    <a href="medico/login.php"><img class="imagem" src="img/medico.png"
-                            style="width: 100%; height: 100%;  transition: transform 0.3s ease, box-shadow 0.3s ease;"></a>
-                </div>
 
-                <!-- DIV DO PACIENTE -->
-                <div class="col-12 col-md-12" style="height: 14.5rem; width: 20rem; margin-top: 1rem;">
-                    <a href="dadospessoais.php"><img class="imagem" src="img/paciente.png"
-                            style="width: 100%; height: 100%;  transition: transform 0.3s ease, box-shadow 0.3s ease;"></a>
-                </div>
-            </div>
         </div>
     </div>
 </div>
-
-
-
-<?php include "footer.php" ?>
+<?php include "footer.php"; ?>

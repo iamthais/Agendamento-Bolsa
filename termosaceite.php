@@ -56,12 +56,12 @@ require "header.php";
                 <label for="chektermo" class="form-check-label">
                     Declaro que li e aceito os termos
                 </label>
-                
+
 
             </div>
             <div class="col-12 col-md-12">
                 <div class="col-auto center mt-3">
-                    <form action="dadospessoais.php">
+                    <form action="medoupac.php">
                         <button disabled type="submit" id="botaoenviar" class="btn btn-primary"
                             style="font-size: 18px;">Próximo</button>
                     </form>
