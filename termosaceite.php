@@ -63,7 +63,7 @@ require "header.php";
                 <div class="col-auto center mt-3">
                     <form action="dadospessoais.php">
                         <button disabled type="submit" id="botaoenviar" class="btn btn-primary"
-                            style="font-size: 16px;">Próximo</button>
+                            style="font-size: 18px;">Próximo</button>
                     </form>
                 </div>
             </div>
