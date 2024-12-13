@@ -17,8 +17,10 @@
             <div class="h3 col-md-12 text-center mt-5">
                 <form action="termosaceite.php">
                     <button type="submit" class="btn btn-primary" style="font-size: 25px;">Iniciar pré-cadastro</button>
+                </form>
             </div>
         </div>
     </div>
 </div>
+
 <?php include "footer.php"; ?>
