@@ -3,14 +3,14 @@
 <div class="scroll" style="padding-bottom: 100px;">
     <div class="container mt-5 texto1">
         <div class="row">
-            <div class="h1 col-md-8 " style="font-size: 70px;">
-                <p>
+            <div class=" col-md-8  " >
+                <h1 class="textotelainicial">
                     Poupe <b>filas</b>,<br>realize o <br><b> pré-cadastro</b><br>
                     da sua <br> consulta hospitalar
-                </p>
+                </h1>
             </div>
-            <div class="col-md-4 imagem" style="width: 400px;">
-                <img class="text-end cruzinha" src="img/Cruz.png" alt="imagemcruz" style="width:400px;">
+            <div class="col-12 col-md-4 text-center" >
+                <img class="img-fluid cruzinha" src="img/Cruz.png" alt="imagemcruz" >
             </div>
         </div>
         <div class="row">

@@ -97,7 +97,16 @@ body {
     .telapequena {
         margin-top: 15px;
     }
+    .textotelainicial { 
+        text-align: center;
+        font-size: 1.0rem !important;
+        margin-bottom: 0.2rem !important;
 
+    }
+    .cruzinha {
+        height: 25px !important;
+        width: 25px !important;
+    }
 }
 
 .celular {
@@ -128,4 +137,10 @@ body {
 
 .imagem:hover {
     transform: scale(0.85);
+}
+.textotelainicial {
+    font-size: 70px !important;
+}
+.cruzinha {
+    width: 400px;
 }
