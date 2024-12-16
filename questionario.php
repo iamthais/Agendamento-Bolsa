@@ -16,22 +16,22 @@
         <div class="row mt-2 justify-content-center text-center">
             <div class="col-12">
                 <p class="mt-4">1- Já fez tratamento de Quimioterapia ou Radioterapia?</p>
-                <input class="form-check-input" type="radio" name="check1" value="" id="flexCheckDefault">
+                <input class="form-check-input" type="radio" name="check1" value="" id="flexCheckDefault1">
                 <label class="form-check-label" for="flexCheckDefault">
                     SIM
                 </label>
-                <input class="form-check-input" type="radio" name="check1" value="" id="flexCheckDefault">
+                <input class="form-check-input" type="radio" name="check1" value="" id="flexCheckDefault2">
                 <label class="form-check-label" for="flexCheckDefault">
                     NÃO
                 </label>
             </div>
             <div class="col-12">
                 <p class="mt-4">2- Tem possibilidade de gravidez?</p>
-                <input class="form-check-input" type="radio" name="check2" value="" id="flexCheckDefault">
+                <input class="form-check-input" type="radio" name="check2" value="" id="flexCheckDefault3">
                 <label class="form-check-label" for="flexCheckDefault">
                     SIM
                 </label>
-                <input class="form-check-input" type="radio" name="check2" value="" id="flexCheckDefault">
+                <input class="form-check-input" type="radio" name="check2" value="" id="flexCheckDefault4">
                 <label class="form-check-label" for="flexCheckDefault">
                     NÃO
                 </label>
@@ -39,12 +39,12 @@
             </div>
             <div class="col-12">
                 <p class="mt-4">3- Tem alguma doença crônica?</p>
-                <input class="form-check-input" type="radio" name="check3" value="1" id="flexCheckDefault"
+                <input class="form-check-input" type="radio" name="check3" value="1" id="flexCheckDefault5"
                     onchange="exibeCampo3(this)">
                 <label class="form-check-label" for="flexCheckDefault">
                     SIM
                 </label>
-                <input class="form-check-input" type="radio" name="check3" value="0" id="flexCheckDefault"
+                <input class="form-check-input" type="radio" name="check3" value="0" id="flexCheckDefault6"
                     onchange="exibeCampo3(this)">
                 <label class="form-check-label" for="flexCheckDefault">
                     NÃO
@@ -57,12 +57,12 @@
             </div>
             <div class="col-12">
                 <p class="mt-2">4- Toma alguma medicação continua??</p>
-                <input class="form-check-input" type="radio" name="check4" value="1" id="flexCheckDefault"
+                <input class="form-check-input" type="radio" name="check4" value="1" id="flexCheckDefault7"
                     onchange="exibeCampo4(this)">
                 <label class="form-check-label" for="flexCheckDefault">
                     SIM
                 </label>
-                <input class="form-check-input" type="radio" name="check4" value="0" id="flexCheckDefault"
+                <input class="form-check-input" type="radio" name="check4" value="0" id="flexCheckDefault8"
                     onchange="exibeCampo4(this)">
                 <label class="form-check-label" for="flexCheckDefault">
                     NÃO
@@ -75,12 +75,12 @@
             </div>
             <div class="col-12">
                 <p class="mt-2">5- Alguma Alergia?</p>
-                <input class="form-check-input" type="radio" name="check5" value="1" id="flexCheckDefault"
+                <input class="form-check-input" type="radio" name="check5" value="1" id="flexCheckDefault9"
                     onchange="exibeCampo5(this)">
                 <label class="form-check-label" for="flexCheckDefault">
                     SIM
                 </label>
-                <input class="form-check-input" type="radio" name="check5" value="0" id="flexCheckDefault"
+                <input class="form-check-input" type="radio" name="check5" value="0" id="flexCheckDefault10"
                     onchange="exibeCampo5(this)">
                 <label class="form-check-label" for="flexCheckDefault">
                     NÃO
@@ -93,77 +93,77 @@
             </div>
             <div class="col-12">
                 <p class="mt-2">6- É fumante ou Ex-Fumante?</p>
-                <input class="form-check-input" type="radio" name="check6" value="" id="flexCheckDefault">
+                <input class="form-check-input" type="radio" name="check6" value="" id="flexCheckDefault11">
                 <label class="form-check-label" for="flexCheckDefault">
                     SIM
                 </label>
-                <input class="form-check-input" type="radio" name="check6" value="" id="flexCheckDefault">
+                <input class="form-check-input" type="radio" name="check6" value="" id="flexCheckDefault12">
                 <label class="form-check-label" for="flexCheckDefault">
                     NÃO
                 </label>
             </div>
             <div class="col-12">
                 <p class="mt-4">7- Usa álcool ou drogas?</p>
-                <input class="form-check-input" type="radio" name="check7" value="" id="flexCheckDefault">
+                <input class="form-check-input" type="radio" name="check7" value="" id="flexCheckDefault13">
                 <label class="form-check-label" for="flexCheckDefault">
                     SIM
                 </label>
-                <input class="form-check-input" type="radio" name="check7" value="" id="flexCheckDefault">
+                <input class="form-check-input" type="radio" name="check7" value="" id="flexCheckDefault14">
                 <label class="form-check-label" for="flexCheckDefault">
                     NÃO
                 </label>
             </div>
             <div class="col-12">
                 <p class="mt-4">8- Tem marca-passo cardíaco?</p>
-                <input class="form-check-input" type="radio" name="check8" value="" id="flexCheckDefault">
+                <input class="form-check-input" type="radio" name="check8" value="" id="flexCheckDefault15">
                 <label class="form-check-label" for="flexCheckDefault">
                     SIM
                 </label>
-                <input class="form-check-input" type="radio" name="check8" value="" id="flexCheckDefault">
+                <input class="form-check-input" type="radio" name="check8" value="" id="flexCheckDefault16">
                 <label class="form-check-label" for="flexCheckDefault">
                     NÃO
                 </label>
             </div>
             <div class="col-12">
                 <p class="mt-4">9- É pessoa com deficiência?</p>
-                <input class="form-check-input" type="radio" name="check9" value="" id="flexCheckDefault">
+                <input class="form-check-input" type="radio" name="check9" value="" id="flexCheckDefault17">
                 <label class="form-check-label" for="flexCheckDefault">
                     SIM
                 </label>
-                <input class="form-check-input" type="radio" name="check9" value="" id="flexCheckDefault">
+                <input class="form-check-input" type="radio" name="check9" value="" id="flexCheckDefault18">
                 <label class="form-check-label" for="flexCheckDefault">
                     NÃO
                 </label>
             </div>
             <div class="col-12">
                 <p class="mt-4">10- Tem insuficiência Renal/Faz hemodiálise?</p>
-                <input class="form-check-input" type="radio" name="check10" value="" id="flexCheckDefault">
+                <input class="form-check-input" type="radio" name="check10" value="" id="flexCheckDefault19">
                 <label class="form-check-label" for="flexCheckDefault">
                     SIM
                 </label>
-                <input class="form-check-input" type="radio" name="check10" value="" id="flexCheckDefault">
+                <input class="form-check-input" type="radio" name="check10" value="" id="flexCheckDefault20">
                 <label class="form-check-label" for="flexCheckDefault">
                     NÃO
                 </label>
             </div>
             <div class="col-12">
                 <p class="mt-4">11- Já teve AVC?</p>
-                <input class="form-check-input" type="radio" name="check11" value="" id="flexCheckDefault">
+                <input class="form-check-input" type="radio" name="check11" value="" id="flexCheckDefault21">
                 <label class="form-check-label" for="flexCheckDefault">
                     SIM
                 </label>
-                <input class="form-check-input" type="radio" name="check11" value="" id="flexCheckDefault">
+                <input class="form-check-input" type="radio" name="check11" value="" id="flexCheckDefault22">
                 <label class="form-check-label" for="flexCheckDefault">
                     NÃO
                 </label>
             </div>
             <div class="col-12">
                 <p class="mt-4">12- Acidentes ou quedas recentes?</p>
-                <input class="form-check-input" type="radio" name="check12" value="" id="flexCheckDefault">
+                <input class="form-check-input" type="radio" name="check12" value="" id="flexCheckDefault23">
                 <label class="form-check-label" for="flexCheckDefault">
                     SIM
                 </label>
-                <input class="form-check-input" type="radio" name="check12" value="" id="flexCheckDefault">
+                <input class="form-check-input" type="radio" name="check12" value="" id="flexCheckDefault24">
                 <label class="form-check-label" for="flexCheckDefault">
                     NÃO
                 </label>
